@@ -1,0 +1,21 @@
+<!-- frontend/login.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Логін - Smart Money</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Логін</h2>
+        <form id="loginForm" method="POST" action="http://127.0.0.1:5000/login">
+            <input type="text" name="username" placeholder="Ім'я користувача" required>
+            <input type="password" name="password" placeholder="Пароль" required>
+            <button type="submit">Увійти</button>
+        </form>
+        <p>Ще не маєте акаунта? <a href="register.html">Зареєструйтесь</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

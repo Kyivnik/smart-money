@@ -1,0 +1,21 @@
+<!-- frontend/register.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Реєстрація - Smart Money</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Реєстрація</h2>
+        <form id="registerForm" method="POST" action="http://127.0.0.1:5000/register">
+            <input type="text" name="username" placeholder="Ім'я користувача" required>
+            <input type="password" name="password" placeholder="Пароль" required>
+            <button type="submit">Зареєструватися</button>
+        </form>
+        <p>Вже маєте акаунт? <a href="login.html">Увійдіть</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
